@@ -1,7 +1,8 @@
 // create a variable and call it and print it on html page.
 
-var carName = "Music"; // creates and initializes a variable named carName.
-document.getElementById("demo").innerHTML = carName;
+// var carName = "Volvo";
+// // creates and initializes a variable named carName.
+// document.getElementById("demo").innerHTML = carName;
 
 //javascript creating a method that has lots of parameter.
 //a person object
@@ -21,14 +22,10 @@ console.log(person.age);
 person.changeName('john');
 console.log(person.lastName);
 
+// replacing a string using regular expression.
 
-/*
-    types of click event/ JS event
-    onclick
-    onchange
-    onmouseover
-    onmouseout
-    onkeydown
-    onload
+let text = "I am the king. and the king is not a thief!";
+console.log(text);
+let changeKing = text.replace(/king/g, 'Emmanuel');
 
-*/
+console.log(changeKing);
